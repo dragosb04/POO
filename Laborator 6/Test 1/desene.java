@@ -71,10 +71,11 @@ class Main {
 
         Desen desen = new Desen("Desen");
 
-        boolean added1 = desen.adaugaFigura(figura1);
-        boolean added2 = desen.adaugaFigura(figura2);
-        boolean added3 = desen.adaugaFigura(figura3); 
-        boolean added4 = desen.adaugaFigura(figura4);
+        desen.adaugaFigura(figura1);
+        desen.adaugaFigura(figura2);
+        desen.adaugaFigura(figura3); 
+        desen.adaugaFigura(figura4);
+        desen.adaugaFigura(figura3);
 
         System.out.println(desen);
         System.out.println("Media arie: " + desen.medieArie());
