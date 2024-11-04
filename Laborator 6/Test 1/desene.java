@@ -30,7 +30,7 @@ class Desen {
     public boolean adaugaFigura (Figura obj){
         if (indexFiguri < 1024){
             for (int i = 0; i < indexFiguri; i++){
-                if (obj.equals(figuri[i]))
+                if (obj == figuri[i])
                     return false;
             }
             
